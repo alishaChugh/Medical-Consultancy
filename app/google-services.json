@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "548377929574",
+    "firebase_url": "https://medical-era.firebaseio.com",
+    "project_id": "medical-era",
+    "storage_bucket": "medical-era.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548377929574:android:36912f35d27aa922",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawerpractise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548377929574-k1tavs6pkaidvktrqdnnle2igin9chru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi1k44MKKuNPs_39s2ZUCy8LSBUH3fvcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548377929574-k1tavs6pkaidvktrqdnnle2igin9chru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
