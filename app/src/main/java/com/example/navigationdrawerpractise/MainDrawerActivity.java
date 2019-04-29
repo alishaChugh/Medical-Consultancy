@@ -107,7 +107,13 @@ public class MainDrawerActivity extends AppCompatActivity
             Intent intent = new Intent(MainDrawerActivity.this, Consultancyy.class);
             startActivity(intent);
         } else if (id == R.id.nav_gallery) {
+            Intent email = new Intent(Intent.ACTION_SEND);
+           email.putExtra(Intent.EXTRA_EMAIL, new String[]{ ""});
+            email.putExtra(Intent.EXTRA_SUBJECT, "");
+           email.putExtra(Intent.EXTRA_TEXT, "");
+            email.setType("message/rfc822");
 
+            startActivity(Intent.createChooser(email, "Choose an Email client :"));
 
         } else if (id == R.id.nav_slideshow) {
             Problem problem = new Problem();

@@ -13,14 +13,13 @@ import android.view.View;
 import android.widget.Button;
 
 public class Signup_Dialog extends AppCompatDialogFragment {
+
     Button a,b;
 
     public Dialog onCreateDialog(Bundle savedInstanceState){
         AlertDialog.Builder builder=new AlertDialog.Builder(getActivity());
         LayoutInflater inflater=getActivity().getLayoutInflater();
         View view=inflater.inflate(R.layout.signupdialog,null);
-
-
 
         builder.setView(view).setTitle("SignUp").setNegativeButton("cancel", new DialogInterface.OnClickListener() {
             @Override
